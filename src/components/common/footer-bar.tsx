@@ -33,7 +33,7 @@ export const FooterBar = () => {
                     <ul className='flex'>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/adihi_store_react"
+                                to="/"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
@@ -43,7 +43,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/adihi_store_react/category"
+                                to="/category"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
@@ -53,7 +53,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/adihi_store_react/katanas"
+                                to="/katanas"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
@@ -63,7 +63,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/adihi_store_react/new"
+                                to="/new"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
@@ -73,7 +73,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/adihi_store_react/popular"
+                                to="/popular"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
@@ -83,7 +83,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/adihi_store_react/calendar"
+                                to="/calendar"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
@@ -93,7 +93,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/adihi_store_react/contact"
+                                to="/contact"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
@@ -103,7 +103,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 mb-5'>
                             <NavLink
-                                to="/adihi_store_react/terms"
+                                to="/terms"
                                 end
                                 className="hover:text-adihi-red"                                
                             >
