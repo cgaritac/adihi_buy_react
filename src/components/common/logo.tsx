@@ -5,7 +5,7 @@ export const LogoComponent = () => {
     return (
         <>
             <NavLink
-                to="/adihi_store_react/"
+                to="/"
                 end
                 className="hover:text-adihi-red"
             >
