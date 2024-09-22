@@ -1,7 +1,6 @@
 import { PagesList } from '../../utils/enums/list-pages';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';  
 import { faTiktok, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { LogoComponent } from '../common/logo';
 import { NavLink } from 'react-router-dom';
 
 export const FooterBar = () => {
