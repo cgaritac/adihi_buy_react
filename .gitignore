@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #live
-firebase.js
+#firebase.js
