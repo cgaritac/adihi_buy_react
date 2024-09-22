@@ -1,6 +1,6 @@
 export enum PagesList {
     home = "Inicio",
-    category = "Categorías",
+    category = "Catálogo",
     katana = "Katanas",
     new = "Nuevo",
     popular = "Populares",

@@ -28,36 +28,6 @@ export const NavBar = () => {
                 </li>
                 <li className="">
                     <NavLink
-                        to="/katanas"
-                        className={({ isActive }) =>
-                            `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
-                        }
-                    >
-                        {PagesList.katana}
-                    </NavLink>
-                </li>
-                <li className="">
-                    <NavLink
-                        to="/new"
-                        className={({ isActive }) =>
-                            `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
-                        }
-                    >
-                        {PagesList.new}
-                    </NavLink>
-                </li>
-                <li className="">
-                    <NavLink
-                        to="/popular"
-                        className={({ isActive }) =>
-                            `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
-                        }
-                    >
-                        {PagesList.popular}
-                    </NavLink>
-                </li>
-                <li className="">
-                    <NavLink
                         to="/calendar"
                         className={({ isActive }) =>
                             `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`

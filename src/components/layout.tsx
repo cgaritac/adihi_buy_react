@@ -12,7 +12,7 @@ export const MainLayout = ({ children }: {children: React.ReactNode}) => {
             <header className='w-full bg-black px-36'>
                 <HeaderBar/>
             </header>
-            <nav className='w-full bg-adihi-red px-32'>
+            <nav className='w-full bg-adihi-red px-36'>
                 <NavBar/>
             </nav>
             <section className='w-full bg-home-hero bg px-36'>
