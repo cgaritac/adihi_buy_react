@@ -27,8 +27,8 @@ export const FooterBar = () => {
                     </ul>
                 </section>                
                 <section aria-labelledby='Pages-links' className='flex flex-col items-center'>
-                    <h3 id='Pages-links' className="text-2xl font-normal mb-3 mt-5 font-semibold">Enlaces:</h3>
-                    <ul className='flex'>
+                    <h3 id='Pages-links' className="text-2xl font-normal mb-3 mt-5 font-semibold font-trade-winds">Enlaces:</h3>
+                    <ul className='flex font-trade-winds'>
                         <li className='pl-2 pb-1'>
                             <NavLink
                                 to="/"
@@ -45,7 +45,7 @@ export const FooterBar = () => {
                                 end
                                 className="hover:text-adihi-red"                                
                             >
-                                {PagesList.category}
+                                {PagesList.catalog}
                             </NavLink>                       
                             <span className='pl-2'>|</span>                      
                         </li>

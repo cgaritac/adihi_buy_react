@@ -18,7 +18,7 @@ export const MainLayout = ({ children }: {children: React.ReactNode}) => {
             <section className='w-full bg-home-hero bg px-36'>
                 <Hero/>
             </section> 
-            <main className='min-h-screen bg-red-200 px-36'>
+            <main className='bg-red-200 px-36 pb-24'>
                 {children}
             </main>           
             <footer className='w-full bg-black px-36'>

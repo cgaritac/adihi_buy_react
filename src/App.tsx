@@ -1,9 +1,10 @@
 import { MainLayout } from '../src/components/layout'
 import { Home } from '../src/pages/home'
-import { Category } from '../src/pages/category'
+import { Catalog } from './pages/catalog'
 import { Calendar } from './pages/calendar'
 import { Contact } from '../src/pages/contact'
 import { Terms } from '../src/pages/terms'
+import { LoginUser } from '../src/pages/login'
 import { Cart } from '../src/pages/cart'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -15,10 +16,11 @@ function App() {
           <MainLayout>
             <Routes>
               <Route path='/' element={<Home/>}/>
-              <Route path='/category' element={<Category/>}/>
+              <Route path='/catalog' element={<Catalog/>}/>
               <Route path='/calendar' element={<Calendar/>}/>
               <Route path='/contact' element={<Contact/>}/>
               <Route path='/terms' element={<Terms/>}/>
+              <Route path='/login' element={<LoginUser/>}/>
               <Route path='/cart' element={<Cart/>}/>
             </Routes>
           </MainLayout>

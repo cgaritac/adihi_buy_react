@@ -1,7 +1,7 @@
 import { faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';  
 
-export const Category = () => {
+export const Catalog = () => {
     return (
         <>
             <h1 className="flex justify-center">

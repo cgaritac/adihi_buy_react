@@ -10,7 +10,7 @@ export const NavBar = () => {
                         to="/"
                         end
                         className={({ isActive }) =>
-                            `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
+                            `relative px-4 py-2 font-trade-winds hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
                         }
                     >
                         {PagesList.home}
@@ -20,17 +20,17 @@ export const NavBar = () => {
                     <NavLink
                         to="/category/"
                         className={({ isActive }) =>
-                            `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
+                            `relative px-4 py-2 font-trade-winds hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
                         }
                     >
-                        {PagesList.category}
+                        {PagesList.catalog}
                     </NavLink>
                 </li>
                 <li className="">
                     <NavLink
                         to="/calendar"
                         className={({ isActive }) =>
-                            `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
+                            `relative px-4 py-2 font-trade-winds hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
                         }
                     >
                         {PagesList.calendar}
@@ -40,7 +40,7 @@ export const NavBar = () => {
                     <NavLink
                         to="/contact"
                         className={({ isActive }) =>
-                            `relative px-4 py-2 pb- hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
+                            `relative px-4 py-2 font-trade-winds hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
                         }
                     >
                         {PagesList.contact}

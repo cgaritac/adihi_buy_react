@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { useHoverSearch } from '../../hooks/use-hover-search';
 import { LogoComponent } from '../common/logo';
+import { NavLink } from 'react-router-dom';
 
 export const HeaderBar = () => {
     const { isHovered, handleMouseEnter, handleMouseLeave } = useHoverSearch();
@@ -32,11 +33,11 @@ export const HeaderBar = () => {
                     </div>
                 </li>
                 <li>
-                    <a href="#" className='relative'>
-                        <div className='w-16 h-16 bg-adihi-red rounded-full flex items-center justify-center'>
+                    <NavLink to="/login" className='relative'>
+                        <div className='w-16 h-16 bg-adihi-red rounded-full flex items-center justify-center hover:bg-red-800'>
                             <FontAwesomeIcon icon={faUser} className="text-xl text-white" />
                         </div>
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
         </>
