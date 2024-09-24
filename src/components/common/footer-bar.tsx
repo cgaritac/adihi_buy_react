@@ -7,7 +7,7 @@ export const FooterBar = () => {
     return (
         <>
             <nav className="flex justify-between items-center text-white">
-                <section aria-labelledby='Social-network-title' className="flex flex-col items-center">
+                <section className="flex flex-col items-center">
                     <ul className='flex justify-between items-center mt-2 gap-x-4 mb-2'>
                         <li>
                             <a href="https://www.facebook.com/adihi.costarica" target="_blank" className='hover:text-adihi-red'>
@@ -41,7 +41,7 @@ export const FooterBar = () => {
                         </li>
                         <li className='pl-2 pb-1'>
                             <NavLink
-                                to="/category"
+                                to="/catalog"
                                 end
                                 className="hover:text-adihi-red"                                
                             >

@@ -18,7 +18,7 @@ export const NavBar = () => {
                 </li>
                 <li className="">
                     <NavLink
-                        to="/category/"
+                        to="/catalog"
                         className={({ isActive }) =>
                             `relative px-4 py-2 font-trade-winds hover:text-black ${isActive ? 'bg-red-500 rounded-full' : ''}`
                         }

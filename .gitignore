@@ -24,4 +24,6 @@ dist-ssr
 *.sw?
 
 #live
-/firebase.js
+/credentials.ts
+.env
+text.txt

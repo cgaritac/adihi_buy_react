@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';  
 import { faUser, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { useHoverSearch } from '../../hooks/use-hover-search';
-import { LogoComponent } from '../common/logo';
+import { LogoComponent } from '../buttons/logo';
 import { NavLink } from 'react-router-dom';
 
 export const HeaderBar = () => {

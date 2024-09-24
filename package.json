@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "adihi_buy": "file:",
+    "dotenv": "^16.4.5",
     "firebase": "^10.13.2",
     "react-router-dom": "^6.26.2"
   },
